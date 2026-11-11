@@ -10,6 +10,10 @@
 
 在线试玩：<https://3a.mwcpool.uk/>
 
+原作地址：<https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp>
+
+开源地址：<https://github.com/mason0510/china-3a-claude>
+
 ## 本地打开
 
 整页是一个静态文件，没有构建步骤。`index.html` 里已经带上渲染和关卡。`sw.js` 是离线回退用的 service worker，只在 http(s) 页面上注册。
@@ -32,6 +36,7 @@ python3 -m http.server 8080
 | E | 切断中继 |
 | Space / Shift / C | 跳 / 冲刺 / 蹲 |
 | Esc | 暂停 |
+| 新手辅导 | 同一张地图，不刷机械飞鸥和机械猎犬 |
 
 触屏用左手移动、右手转视角，不显示鼠标用的「开火」按钮。`/` 和 `\` 是在原有按键上加的，L 仍是向右转，P 仍是暂停。输入法要切到英文，`/` 才会进到游戏。设置里可以改画质、灵敏度和视野。
 
@@ -48,3 +53,5 @@ python3 -m http.server 8080
 ![Star 累计](docs/star-history.svg)
 
 曲线由 `python3 scripts/update_star_history.py <stargazers.tsv>` 重画。仓库里没有定时函数，不跑这句，图就停在上次写出的数字。
+
+怎么把这一页拆回系统说明，见 [analyze](analyze/README.md)。
