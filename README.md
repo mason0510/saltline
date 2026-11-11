@@ -8,7 +8,7 @@
 
 浏览器里直接玩的第一人称射击。切断港区三处中继，突破封锁，登船撤离。
 
-在线试玩：<https://3a.mwcpool.uk/>
+在线入口：<https://3a.mwcpool.uk/> 。进去之后选游戏。港区这一局在 <https://3a.mwcpool.uk/mason/>。
 
 原作地址：<https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp>
 

@@ -4,7 +4,7 @@
  * Network-first for HTML and this script, so a redeploy is visible while online.
  * Cache is only the fallback when the network fails. Does not cache POST, and does not cache other origins.
  */
-var MASON_L3 = "mason-3a-l3-v5";
+var MASON_L3 = "mason-3a-l3-v6";
 
 self.addEventListener("install", function (event) {
   event.waitUntil(self.skipWaiting());
