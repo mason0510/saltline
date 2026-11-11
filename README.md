@@ -1,10 +1,14 @@
+## 赞助商：[ChainFuel](https://chainfuel.tap365.org/)
+
+**ChainFuel 提供稳定、低价的大模型接口。** 在现有工具里填一把密钥和 Base URL，按 OpenAI 兼容方式调用 GPT、Claude、Grok、Gemini、GLM、Kimi、DeepSeek。
+
+**注册福利：余额 2 刀 + 5 刀订阅体验。现在邀请新用户购买，赠送一个月订阅套餐。**
+
 # mason
 
 浏览器里直接玩的第一人称射击。切断港区三处中继，突破封锁，登船撤离。
 
 在线试玩：<https://3a.mwcpool.uk/>
-
-相关站点：<https://chainfuel.tap365.org>
 
 ## 本地打开
 
@@ -36,3 +40,11 @@ python3 -m http.server 8080
 ## 许可
 
 [Apache License 2.0](LICENSE)。
+
+## Star History
+
+[![GitHub stars](https://img.shields.io/github/stars/mason0510/saltline?style=social)](https://github.com/mason0510/saltline/stargazers)
+
+![Star 累计](docs/star-history.svg)
+
+曲线由 `python3 scripts/update_star_history.py <stargazers.tsv>` 重画。仓库里没有定时函数，不跑这句，图就停在上次写出的数字。
